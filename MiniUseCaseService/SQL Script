@@ -1,0 +1,11 @@
+# Create table
+CREATE TABLE `requirement_details_master` (
+  `req_Id` int(11) NOT NULL AUTO_INCREMENT,
+  `business_Name` varchar(45) NOT NULL,
+  `role_Name` varchar(45) NOT NULL,
+  `location` varchar(45) NOT NULL,
+  `approver1` varchar(45) NOT NULL,
+  `approver2` varchar(45) NOT NULL,
+  PRIMARY KEY (`req_Id`),
+  UNIQUE KEY `req_Id_UNIQUE` (`req_Id`)
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
