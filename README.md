@@ -1,0 +1,2 @@
+# UseCaseRepo
+Mini Use Case
